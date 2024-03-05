@@ -51,7 +51,7 @@ const Header: React.FC = () => {
             />
           </nav>
 
-          <div className="sm:hidden">
+          <div className="sm:hidden cursor-pointer">
             <img onClick={openMenu} className="menu" src={menu} alt="menu" />
             <img
               onClick={closeMenu}
